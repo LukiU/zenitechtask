@@ -1,0 +1,144 @@
+
+body{
+	background-color: #38376A;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	color: #F1DEF2;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+		     -o-box-sizing: border-box;
+		        box-sizing: border-box;
+}
+ul{
+	list-style-type: none;
+	font-size: 24px;
+}
+
+.header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.content{
+	width: 80%;
+	display: block;
+	margin-left: auto; margin-right: auto;
+}
+#container{
+	background-color:#38176A ;
+	border-width: 5px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 500px;
+}
+#image-container{
+	padding-top: 5px;
+	float: right;
+	width: 70%;
+}
+#title{	
+	padding-left: 10px;
+	padding-top: 10px ;
+	float: left;
+	width: 25%;
+	overflow-wrap: break-word;
+	overflow-y: hidden;
+}
+
+#image{
+	padding-right: 10px;
+	object-fit: contain;
+	height: 480px;
+	width: 100%;
+}
+#message{
+	text-align: center;
+	font-size: 36px;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 999px){
+
+#container{
+	height: 350px;
+}
+#image{
+	height: 330px;
+}
+#title{
+	font-size: 20px;
+}
+}
+
+@media only screen and (min-width:600px) and (max-width: 799px){
+
+#container{
+	height: 250px;
+}
+#image{
+	height: 230px;
+}
+#title{
+	font-size: 20px;
+}
+}
+
+@media only screen and (min-width:400px) and (max-width: 599px){
+
+#container{
+	height: 400px;
+}
+#image-container{
+	float:  none;
+	width: 100%;
+}
+#title{
+	text-align: center;
+	font-size: 14px;
+	float: none;
+	bottom: 0px;
+	width: 100%;
+}
+#image{
+	height: 350px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+}
+@media only screen and (max-width: 399px){
+
+#container{
+	height: 350px;
+}
+#image-container{
+	float:  none;
+	width: 100%;
+}
+#title{
+	text-align: center;
+	font-size: 12px;
+	float: none;
+	bottom: 0px;
+	width: 100%;
+}
+#image{
+	height: 300px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+#message{
+	font-size: 20px;
+}
+}
+
